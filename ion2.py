@@ -40,8 +40,7 @@ omega=math.sqrt(2*a0/m)
 l=math.pow(e**2/(4*math.pi*E0*m*omega**2),1/3)
 x1,x2=Eqposition3(2)*l
 initial_state=[x1,x2,0,0]
-v=[0.05]
-
+v=[0.05]#the speeds you want to move the ions
 a=[]
 for i in v:
     transport_time=round(8*10**-5/i,7)
