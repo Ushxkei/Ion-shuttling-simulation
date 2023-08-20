@@ -1,11 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
-from sklearn.metrics import mean_squared_error, r2_score
-from scipy.optimize import curve_fit
 import math
-from scipy import interpolate
 from scipy.integrate import solve_ivp
-from Eqposition3 import *
 import time
 
 def ion1(t,y,L,T,mode):
